@@ -1,1 +1,2 @@
-openreview-py>=1.52.0
+# Windows does not ship the IANA timezone database used by zoneinfo.
+tzdata>=2024.1; sys_platform == "win32"
